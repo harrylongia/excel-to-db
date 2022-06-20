@@ -1,0 +1,21 @@
+{
+  "name": "excel-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Harshdeep Singh Longia",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "convert-excel-to-json": "^1.7.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "mongoose": "^6.4.0",
+    "node-xlsx": "^0.21.0",
+    "nodemon": "^2.0.16"
+  }
+}
