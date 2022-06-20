@@ -8,6 +8,11 @@ const excelSchema = new Schema(
       type: SchemaTypes.String,
       required: true,
     },
+  Email:{
+    type: SchemaTypes.String,
+    required:true,
+    unique:true,
+  },
 },
   {strict: false},
   { timestamps: true }
